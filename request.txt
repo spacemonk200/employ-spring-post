@@ -1,0 +1,31 @@
+GET All Employees:
+Method: GET
+URL: http://localhost:8080/api/employees
+
+
+
+GET Employee by ID:
+Method: GET
+URL: http://localhost:8080/api/employees/{id}
+Replace {id} with the actual ID of the employee.
+
+
+
+Add Employee:
+Method: POST
+URL: http://localhost:8080/api/employees
+Headers: Set Content-Type to application/json
+Body:
+json
+Copy code
+{
+    "name": "John Doe",
+    "designation": "Software Engineer"
+}
+
+
+
+Delete Employee by ID:
+Method: DELETE
+URL: http://localhost:8080/api/employees/{id}
+Replace {id} with the actual ID of the employee.
